@@ -1,5 +1,5 @@
 def list_comprehension(len_list=5):
-    return [i for i in range(len_list)]
+    return list(range(len_list))
 
 
 def test_concat(benchmark):
